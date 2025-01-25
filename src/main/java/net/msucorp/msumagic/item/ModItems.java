@@ -10,7 +10,8 @@ import net.minecraft.util.Identifier;
 import net.msucorp.msumagic.MSUMagic;
 
 public class ModItems {
-    public static final Item MAGIC_WAND = registerItem("magic_wand",new Item(new Item.Settings().maxCount(1)));
+
+    public static final Item MAGIC_ESSENCE = registerItem("magic_essence",new Item(new Item.Settings().maxCount(64)));
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(MSUMagic.MOD_ID, name), item);
     }

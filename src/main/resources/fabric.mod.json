@@ -5,11 +5,11 @@
 	"name": "MSUMagic",
 	"description": "Nester ",
 	"authors": [
-		"Me!"
+		"SpencerMSU and Spencer Corporation"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "Not today yet"
+		"homepage": "https://t.me/SpencerMSU",
+		"sources": "https://t.me/SpencerMSU"
 	},
 	"license": "MIT",
 	"icon": "assets/msumagic/icon.png",

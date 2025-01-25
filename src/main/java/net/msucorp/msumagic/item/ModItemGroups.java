@@ -13,10 +13,11 @@ public class ModItemGroups {
 
     public static final ItemGroup MSUMAGIC = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(MSUMagic.MOD_ID,"msumagic"),
-            FabricItemGroup.builder().icon(()-> new ItemStack(ModItems.MAGIC_WAND))
+            FabricItemGroup.builder().icon(()-> new ItemStack(ModItems.MAGIC_ESSENCE))
                     .displayName(Text.translatable("itemgroup.msumagic.msumagic"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.MAGIC_WAND);
+
+                        entries.add(ModItems.MAGIC_ESSENCE);
                     })
                     .build()
 
