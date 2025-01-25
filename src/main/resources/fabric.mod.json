@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "msumagic",
+	"version": "${version}",
+	"name": "MSUMagic",
+	"description": "Nester ",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "Not today yet"
+	},
+	"license": "MIT",
+	"icon": "assets/msumagic/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.msucorp.msumagic.MSUMagic"
+		],
+		"fabric-datagen": [
+			"net.msucorp.msumagic.MSUMagicDataGenerator"
+		],
+		"client": [
+			"net.msucorp.msumagic.MSUMagicClient"
+		]
+	},
+	"mixins": [
+		"msumagic.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
